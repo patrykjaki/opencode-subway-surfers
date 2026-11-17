@@ -1,0 +1,21 @@
+{
+  "name": "@opencode-subway-surfers/root",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @opencode-subway-surfers/app",
+    "build": "npm run build --workspace @opencode-subway-surfers/app",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "tauri": "npm run tauri --workspace @opencode-subway-surfers/app --",
+    "mock": "node scripts/mock-agent.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

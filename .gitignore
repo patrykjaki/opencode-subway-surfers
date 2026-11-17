@@ -1,0 +1,9 @@
+node_modules/
+dist/
+target/
+.DS_Store
+*.log
+apps/subway/src-tauri/gen/
+apps/subway/src-tauri/target/
+.vite/
+coverage/

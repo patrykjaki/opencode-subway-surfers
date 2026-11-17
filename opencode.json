@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "./packages/opencode-subway-surfers",
+      "options": {
+        "verbose": false,
+        "heartbeatMs": 2000
+      }
+    }
+  ]
+}
